@@ -6,6 +6,18 @@
 body {
 background-color: #FFFFFF;
 }
-.navigation {
-color: #212121;
+.navigation>.link {
+    color: #212121;
+    text-decoration: none;
+}
+.logo {
+    color: var(--accent-color);
+    text-decoration: none;
+}
+.link:hover,
+.link:focus{
+    color: var(--accent-color);
+}
+.link.current:active {
+    color: var(--accent-color);
 }
