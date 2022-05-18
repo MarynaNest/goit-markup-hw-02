@@ -1,0 +1,11 @@
+:root {
+    --accent-color: #2196F3;
+    --main-text-color: #757575;
+    --backround-color: #E5E5E5;
+}
+body {
+background-color: #FFFFFF;
+}
+.navigation {
+color: #212121;
+}
