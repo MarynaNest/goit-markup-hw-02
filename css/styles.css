@@ -4,20 +4,35 @@
     --backround-color: #E5E5E5;
 }
 body {
+    width: 1600px;
 background-color: #FFFFFF;
+}
+.container {
+    display: flex;
 }
 .navigation>.link {
     color: #212121;
     text-decoration: none;
 }
 .logo {
-    color: var(--accent-color);
+    color: var(--accent-color); 
+}
+.link.logo {
+    padding: 215px;
+    margin-right: 93px;
+}
+.link {
+    margin-right: 50px;
     text-decoration: none;
 }
-.link:hover,
-.link:focus{
+.link.current {
     color: var(--accent-color);
 }
-.link.current:active {
-    color: var(--accent-color);
+.contacts {
+    margin-left: 331px;
 }
+.phone {
+    color: var(--main-text-color);
+    text-decoration: none;
+}
+
