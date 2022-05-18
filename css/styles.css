@@ -35,4 +35,12 @@ background-color: #FFFFFF;
     color: var(--main-text-color);
     text-decoration: none;
 }
-
+    /* CTA */
+.hero {
+    width: 1600px;
+    height: 600px;
+    background-color: #2F303A;
+}
+.title {
+    color: var(#FFFFFF);
+}
