@@ -9,7 +9,6 @@ sans-serif; */
     --title-color: #212121;
 }
 body {
-width: 1600px;
 
 background-color: #FFFFFF;
 color: var(--main-text-color);
@@ -17,8 +16,12 @@ color: var(--main-text-color);
 font-family: Roboto, sans-serif;
 }
 .container {
-    display: flex;
-    }
+    list-style: none;
+}
+
+.contacts {
+    list-style: none;
+}
 .navigation>.link {
     color: var(--title-color);
     justify-content: center;
@@ -36,8 +39,7 @@ font-family: Roboto, sans-serif;
 
     font-weight: 700;
     font-size: 26px;
-    padding-left: 50px;
-    margin-right: 93px;
+    
     text-decoration: none;
   
 
@@ -69,15 +71,9 @@ font-family: Roboto, sans-serif;
 .link.current:focus {
     color: var(--accent-color);
 }
-.contacts {
-    margin-left: 331px;
-
-}
 
     /* CTA */
 .hero {
-    width: 1600px;
-    height: 600px;
 
     background-color: #2F303A;
 }
@@ -93,29 +89,28 @@ font-family: Roboto, sans-serif;
     text-transform: uppercase;
     
    }
+   .buttons {
+       list-style: none;
+   }
    .button {
         width: 200px;
         height: 50px;
         left: 700px;
         top: 430px;
         border-radius: 4px;
+        font-family: inherit;
 
        color: #FFFFFF;
        background-color: var(--accent-color);
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-
-        position: absolute;
-        margin-top: 40px;
    }
-   .portfolio {
-       background-color: #E5E5E5;
-   }
+   
    .hidden {
     color: transparent;
    }
    .list {
        list-style: none;
-       display: flex;
+    
    }
    .title {
         font-weight: 700;
@@ -127,7 +122,7 @@ font-family: Roboto, sans-serif;
         color: var(--title-color);
    }
    .text {
-        font-weight: 400;
+
         font-size: 14px;
         line-height: 1.71;
     
@@ -147,10 +142,7 @@ font-family: Roboto, sans-serif;
     color: var(--title-color);
    }
 
-   .image {
-       margin-right: 30px;
-   }
-
+  
    .team {
        background-color: #F5F4FA;;
    }
@@ -167,13 +159,11 @@ font-family: Roboto, sans-serif;
    }
 
    .team-post {
-        font-weight: 400;
-        font-size: 16px;
+        
         line-height: 1.18;
     
         text-align: center;
         letter-spacing: 0.03em;
-        margin-top: 10px;
 
    }
    .container2 {
@@ -184,11 +174,11 @@ font-family: Roboto, sans-serif;
    }
    .list2 {
     list-style: none;
-    padding-right: 215px;
+
    }
    .adress {
        font-style: normal;
-        font-weight: 400;
+    
         font-size: 14px;
         line-height: 1.71;
     
@@ -200,8 +190,7 @@ font-family: Roboto, sans-serif;
    }
 
    .contacts-list2 {
-       font-style: normal;
-        font-weight: 400;
+      
         font-size: 14px;
         line-height: 1.71;
     
@@ -212,9 +201,7 @@ font-family: Roboto, sans-serif;
         text-decoration: none;
    }
    /* Страница портфолио */
-   .buttons {
-       padding-left: 517px;
-   }
+   
 
    .btn {
         font-weight: 500;
@@ -227,12 +214,9 @@ font-family: Roboto, sans-serif;
         color: var(--title-color);
         background: #F5F4FA;
         border-radius: 4px;
-       margin-left: 8px;
    }
    .portfolio-list {
     list-style: none;
-
-    padding-left: 215px;
 
     display: flex;
     flex-wrap: wrap;
@@ -247,8 +231,7 @@ font-family: Roboto, sans-serif;
    }
 
    .type {
-        font-weight: 400;
-        font-size: 16px;
+        
         line-height: 1.88;
         letter-spacing: 0.03em;
     
