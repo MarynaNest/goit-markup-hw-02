@@ -18,6 +18,10 @@ font-family: Roboto, sans-serif;
 .container {
     list-style: none;
 }
+.link.active {
+    color: var(--accent-color);
+
+}
 
 .contacts {
     list-style: none;
@@ -91,6 +95,7 @@ font-family: Roboto, sans-serif;
    }
    .buttons {
        list-style: none;
+       cursor: pointer;
    }
    .button {
         width: 200px;
@@ -176,6 +181,7 @@ font-family: Roboto, sans-serif;
     list-style: none;
 
    }
+
    .adress {
        font-style: normal;
     
@@ -189,6 +195,10 @@ font-family: Roboto, sans-serif;
         text-decoration: none;
    }
 
+   .adress:hover {
+       color: var(--accent-color);
+   }
+
    .contacts-list2 {
       
         font-size: 14px;
@@ -200,10 +210,28 @@ font-family: Roboto, sans-serif;
 
         text-decoration: none;
    }
+
+   .contacts-list2:hover {
+       color: var(--accent-color);
+   }
+
    /* Страница портфолио */
-   
+   .btn1 {
+       font-family: inherit;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.62;
+        /* identical to box height, or 162% */
+    
+        text-align: center;
+        letter-spacing: 0.03em;
+    
+        color: #FFFFFF;
+        background-color: var(--accent-color);
+   }
 
    .btn {
+        font-family: inherit;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.62;
@@ -214,6 +242,7 @@ font-family: Roboto, sans-serif;
         color: var(--title-color);
         background: #F5F4FA;
         border-radius: 4px;
+    
    }
    .portfolio-list {
     list-style: none;
